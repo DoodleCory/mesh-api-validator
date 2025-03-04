@@ -30,10 +30,10 @@ This tool provides an automated testing environment for Mesh Rider Radios. Funct
     │ ├── command_builder.py # Builds RPC commands from definitions  
     │ ├── rpc_client.py # JSON-RPC client for API communication  
     │ ├── test_manager.py # Manages test execution and validation  
-    │ └── test_mixin.py # Mixin for test case functionality  
-    ├── logs/ # Test log output directory  
-    ├── tests/ # Test suite implementations  
-    └── getResult.py # Utility script to run individual commands  
+    │ └── test_mixin.py # mixin class for test commands  
+    ├── logs/ # Log output directory  
+    ├── tests/ # Test suites
+    └── getResult.py # script to discover output of a single command  
 
 
 ## Components
