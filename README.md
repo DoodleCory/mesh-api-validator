@@ -1,6 +1,7 @@
 
-
 <div align="center">
+  <img src="https://doodlelabs.com/wp-content/uploads/2022/05/Logo-Footer.png" alt="Doodle Labs Logo" width="250">
+  
   <h2>
     ⚠️ 🔥 <span style="color:red"><strong>WORK IN PROGRESS</strong></span> 🔥 ⚠️
   </h2>
@@ -9,15 +10,13 @@
 
 # Doodle Labs Mesh API Validator
 
-
-A Python-based testing framework for validating mesh network functionality through JSON-RPC commands.
+A Python-based testing framework for validating the JSON-RPC API of Doodle Labs' Mesh Rider Radios
 
 ## Overview
 
-This tool provides an automated testing environment for mesh network devices, allowing you to:
+This tool provides an automated testing environment for Mesh Rider Radios. Functions include:
 
-- Send JSON-RPC commands to network devices
-- Compare responses against expected results
-- Log all responses for further analysis
-- Run configurable test suites
-
+- Test Suite for validating Mesh Rider API Commands
+- Regression Testing for new firmware releases 
+- Run configurable tests
+- Generate test reports
