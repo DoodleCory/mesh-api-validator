@@ -1,0 +1,25 @@
+# config/command_definitions.yaml
+
+commands:
+  GetIP:
+    method: "status"
+    params: {}
+    subsystem: "network.interface.wan2"
+
+  #uci command
+  GetIPUCICall:
+    method: "exec"
+    params:
+      command: "uci"
+      params: [ "get", "network.wan2.ipaddr" ]
+    subsystem: "file"
+
+
+  GetPower:
+    method: "exec"
+    params:
+      command: "iw"
+      params: [ "wlan0", "info" ]
+    subsystem: "file"
+
+

@@ -1,0 +1,7 @@
+rpc:
+  url: "https://10.223.82.95/ubus"
+  username: "user"
+  password: "DoodleSmartRadio"
+logging:
+  level: "INFO"
+  log_dir: "logs"

@@ -1,0 +1,88 @@
+{
+  "SetWiFiChannel": {
+    "result": {
+      "status": "success"
+    }
+  },
+  "GetWiFiChannel": {
+    "result": {
+      "channel": 36
+    }
+  },
+  "SomeErrorCommand": {
+    "error": {
+      "code": -32601,
+      "message": "Method not found"
+    }
+  },
+  "GetIP": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": [
+      0,
+      {
+        "up": true,
+        "pending": false,
+        "available": true,
+        "autostart": true,
+        "dynamic": false,
+        "uptime": "*",
+        "l3_device": "br-wan",
+        "proto": "static",
+        "device": "br-wan",
+        "updated": [
+          "addresses"
+        ],
+        "metric": 0,
+        "dns_metric": 0,
+        "delegation": true,
+        "ipv4-address": [
+          {
+            "address": "*",
+            "mask": 16
+          }
+        ],
+        "ipv6-address": [],
+        "ipv6-prefix": [],
+        "ipv6-prefix-assignment": [],
+        "route": [],
+        "dns-server": [],
+        "dns-search": [],
+        "neighbors": [],
+        "inactive": {
+          "ipv4-address": [],
+          "ipv6-address": [],
+          "route": [],
+          "dns-server": [],
+          "dns-search": [],
+          "neighbors": []
+
+
+        },
+        "data": {}
+      }
+    ]
+  },
+  "GetIPUCICall": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": [
+      0,
+      {
+        "code": 0,
+        "stdout": "*"
+      }
+    ]
+  },
+  "GetPower": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": [
+        0,
+        {
+            "code": 0,
+            "stdout": "*"
+        }
+    ]
+}
+}
