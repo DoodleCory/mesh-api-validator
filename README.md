@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://doodlelabs.com/wp-content/uploads/2022/05/Logo-Footer.png" alt="Doodle Labs Logo" width="250">
+  <img src="https://cdn.builtin.com/cdn-cgi/image/f=auto,fit=cover,w=2580,h=480,q=80/https://builtinla.com/sites/www.builtinla.com/files/2024-10/dheader.png" alt="Doodle Labs Logo" width="250">
   
   <h2>
     ⚠️ 🔥 <span style="color:red"><strong>WORK IN PROGRESS</strong></span> 🔥 ⚠️
