@@ -22,7 +22,7 @@ This tool provides an automated testing environment for Mesh Rider Radios. Funct
 - Generate test reports
 
 # Project Structure
-    project_root/   
+    meshrider_api_validator/   
     ├── config/ # Configuration files  
     │ ├── command_definitions.yaml # YAML definitions of RPC commands   
     │ └── expected_responses.json # Expected API responses for testing  

@@ -14,7 +14,6 @@ commands:
       params: [ "get", "network.wan2.ipaddr" ]
     subsystem: "file"
 
-
   GetPower:
     method: "exec"
     params:
